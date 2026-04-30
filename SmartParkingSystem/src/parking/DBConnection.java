@@ -14,7 +14,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/parking_db",
                     "root",
-                    "Root@123");
+                    "root");
 
         } catch (Exception e) {
             System.out.println("Database Error : " + e);
